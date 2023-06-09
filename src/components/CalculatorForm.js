@@ -44,7 +44,7 @@ const CalculatorForm = () => {
         />
         <TextField
           type="number"
-          label="Meses de retiro"
+          label="Dinero Ocupado"
           value={withdrawalMonths}
           onChange={(e) => setWithdrawalMonths(parseInt(e.target.value))}
           fullWidth
